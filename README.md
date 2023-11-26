@@ -17,6 +17,12 @@ This project creates a visually appealing animation using HTML5 canvas and JavaS
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser to view and interact with the animation.
 
+## Video
+
+https://github.com/jollyzachary/Lissajous-Curve-Animation/assets/129251882/dbf2e335-809e-411c-b43b-26643e9fc75e
+
+
+
 ## Screenshots
 
 ![Dynamic Circle Pattern - Screenshot 1](images/lissajousCurve1.png)
