@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Circle Pattern</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="startButton" class="control-button">Start Animation</button>
+      <button id="pauseButton" class="control-button">Pause Animation</button>
+      <button id="resetButton" class="control-button">Reset Animation</button>
+
+      <div class="equation-display">
+        <p>Y = x * <span id="dynamicNumber">0.000</span></p>
+        <p>Divisions = <span id="divisions">150</span></p>
+        <p>
+          Lissajous Curve Equation: <br />
+          x = A * sin(a * t + δ), y = B * sin(b * t) <br />
+          <span id="lissajousParams">A = 0, B = 0, a = 0, b = 0, δ = 0</span>
+        </p>
+      </div>
+      <canvas id="myCanvas" width="450" height="450"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
